@@ -15,7 +15,7 @@ const GuessedWords = (props) => {
                 <td>{word.letterMatchCount}</td>
             </tr>
         ));
-        contens = (
+        contents = (
             <div data-test="guessed-words">
                 <h3>Guessed Words</h3>
                 <table className="table table-sm">
